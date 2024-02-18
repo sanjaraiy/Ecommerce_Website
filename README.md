@@ -1,4 +1,4 @@
-# Ecommmerce Application
+# Ecommerce Application
 
 
 ## Create React Using Vite :-
@@ -34,3 +34,16 @@ export default {
 @tailwind components;
 @tailwind utilities;
 ```
+## Install React-Router :-
+```
+npm i react-router-dom
+```
+## Install headlessUI for inbuilt components :-
+```
+npm install @headlessui/react
+```
+## React Icons :-
+```
+npm install react-icons
+```
+
