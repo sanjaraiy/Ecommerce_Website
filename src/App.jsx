@@ -5,7 +5,7 @@ import Card from "./pages/card/Card"
 import Dashboard from "./pages/admin/dashboard/Dashboard"
 import NoPage from "./pages/nopage/NoPage"
 import State from "./context/data/State"
-
+import AllProducts from "./pages/allproducts/AllProducts"
 
 function App() {
  
@@ -17,6 +17,7 @@ function App() {
           <Route path="/order" element={<Order></Order>}/>
           <Route path="/card" element={<Card></Card>}/>
           <Route path="/dashboard" element={<Dashboard></Dashboard>}/>
+          <Route path="/allproducts" element={<AllProducts></AllProducts>}></Route>
           <Route path="/*" element={<NoPage></NoPage>}/>
         </Routes>
     </BrowserRouter>
